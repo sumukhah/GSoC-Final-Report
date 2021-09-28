@@ -41,8 +41,8 @@ Then we display these performing users on top of the message box. This `handleSt
 **Compatibility**
 Since my project introduced a new activity type (user-activity) that would handle all three activities, compatibility with the other clients would not be possible. So we still need to support the older version of typing activity until all other client gets updated to use the new stream activity. To achieve compatibility we have added an option in the admin setting ( general->activity indicators -> fire old typing event) and if the user allowed, it would fire the old stream event ('typing') for user typing action and make it compatible with all other clients(such as the live chat, app engine) as well.
 
-[![Demo video](https://user-images.githubusercontent.com/23723464/130473548-d8840317-5f1a-48fb-a18d-ea456093d0f1.png)](https://youtu.be/NMmr-WNDZEY)
-
+<!-- [![Demo video](https://user-images.githubusercontent.com/23723464/130473548-d8840317-5f1a-48fb-a18d-ea456093d0f1.png)](https://youtu.be/NMmr-WNDZEY)
+ -->
 Special Thanks to:
 * Rocket.chat Community for giving me an extra opportunity to work with their amazing team through Sponsored GSoC project and community members for their help.
 * My awesome mentor Rodrigo Nascimento (CTO & Co founder of Rocket.chat)
